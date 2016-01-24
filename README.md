@@ -133,7 +133,7 @@ var game = createGame({
 ### Get current player position
 
 ```js
-game.controls.target().avatar.position()
+game.controls.target().avatar.position
 ```
 
 This returns a THREE.js Vector3 object (which just means an object with 'x', 'y', and 'z').
